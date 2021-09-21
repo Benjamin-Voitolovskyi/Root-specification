@@ -30,6 +30,8 @@ public class RootSpecification { //клас уточнення коренів
         return (an + bn) / 2.0;
     }
 
+    //дописуйте ваші методи тут
+    
     public int getK() {
         return k;
     } //отримати кількість ітерацій
@@ -89,6 +91,6 @@ public class RootSpecification { //клас уточнення коренів
         System.out.println("1\tDivide by two\t"+
                 rootSpecification1.divideByTwo(a1,b,eps)+"         "+
                 rootSpecification1.getK());
-        //тут дописувати методи
+        //тут дописувати виклик методів
     }
 }
